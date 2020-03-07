@@ -1,0 +1,358 @@
+.outter {
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999; }
+  .outter #header {
+    height: 112px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #19110b;
+    overflow: hidden;
+    background: white;
+    padding: 0px 40px;
+    font: "Microsoft YaHei", "Louis Vuitton Web", "STHeiti Light", "STHeitiTC-Light", "Droid Sans Fallback"; }
+    .outter #header .header-wrapper {
+      width: 100%;
+      border-bottom: solid 1px #EAE8E4;
+      background: white; }
+    .outter #header #top-nav {
+      width: 94%;
+      display: flex;
+      justify-content: space-between;
+      height: 40px;
+      overflow: hidden;
+      background: white; }
+      .outter #header #top-nav .headermenul {
+        width: 333px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        float: left; }
+        .outter #header #top-nav .headermenul li {
+          line-height: 40px;
+          font-weight: 300;
+          font-size: 12.6px; }
+          .outter #header #top-nav .headermenul li a {
+            display: block;
+            height: 40px; }
+        .outter #header #top-nav .headermenul .china {
+          margin: 0; }
+      .outter #header #top-nav .headermenur {
+        justify-content: flex-end;
+        height: 40px;
+        overflow: hidden; }
+        .outter #header #top-nav .headermenur li {
+          float: right;
+          height: 40px;
+          width: 32px;
+          margin-left: 16px; }
+          .outter #header #top-nav .headermenur li span {
+            line-height: 40px;
+            text-align: center;
+            font-size: 22px;
+            font-weight: 300; }
+    .outter #header #header-nav {
+      background: white;
+      cursor: pointer;
+      font-weight: 300;
+      height: 72px;
+      text-align: center;
+      line-height: 72px;
+      overflow: hidden;
+      letter-spacing: normal;
+      color: #19110B; }
+      .outter #header #header-nav .header-nav-tit {
+        width: 151px;
+        height: 72px;
+        margin-right: 48px;
+        font-size: 20px;
+        float: left;
+        font-weight: 500;
+        position: relative; }
+        .outter #header #header-nav .header-nav-tit img {
+          width: 100%; }
+      .outter #header #header-nav .header-nav-nav li {
+        padding-left: 32px;
+        float: left;
+        font-size: 11.7px; }
+        .outter #header #header-nav .header-nav-nav li img {
+          width: 30px;
+          height: 30px;
+          float: left;
+          margin-top: 20px;
+          margin-right: 3.5px; }
+        .outter #header #header-nav .header-nav-nav li a {
+          display: block;
+          height: 70px; }
+        .outter #header #header-nav .header-nav-nav li :hover li {
+          border-bottom: solid 1px black; }
+      .outter #header #header-nav .header-nav-nav .pad0 {
+        padding-left: 0;
+        font-size: 10px; }
+  .outter #lv-wrap {
+    height: 100%;
+    position: fixed;
+    top: 112px;
+    left: 0;
+    width: 100%;
+    border-top: solid 1px #EAE8E4;
+    display: none;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5); }
+    .outter #lv-wrap .zhezhao {
+      width: 100%;
+      height: 100px;
+      opacity: 0.4;
+      background: black; }
+    .outter #lv-wrap #lv-close {
+      height: 56px;
+      width: 56px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      font-size: 17px;
+      background: white;
+      z-index: 10;
+      text-align: center;
+      line-height: 56px;
+      cursor: pointer; }
+    .outter #lv-wrap .lv-wrap1 {
+      height: 550px;
+      background: white;
+      width: 100%;
+      display: none;
+      overflow: hidden; }
+      .outter #lv-wrap .lv-wrap1 .menu1 {
+        width: 25%;
+        height: 550px;
+        float: left;
+        padding: 32px 35.5px; }
+        .outter #lv-wrap .lv-wrap1 .menu1 ul li {
+          height: 33.6px;
+          font-size: 14px;
+          line-height: 33.6px; }
+          .outter #lv-wrap .lv-wrap1 .menu1 ul li:hover {
+            color: #cccccc;
+            cursor: pointer; }
+            .outter #lv-wrap .lv-wrap1 .menu1 ul li:hover a {
+              color: #cccccc; }
+          .outter #lv-wrap .lv-wrap1 .menu1 ul li a {
+            display: block; }
+      .outter #lv-wrap .lv-wrap1 .menu2 {
+        padding: 32px 40px;
+        width: 25%;
+        height: 485px;
+        float: left;
+        background: #F6F5F3; }
+        .outter #lv-wrap .lv-wrap1 .menu2 ul {
+          display: none; }
+          .outter #lv-wrap .lv-wrap1 .menu2 ul li {
+            cursor: pointer;
+            height: 33.6px;
+            font-size: 14px;
+            line-height: 33.6px; }
+            .outter #lv-wrap .lv-wrap1 .menu2 ul li:hover {
+              color: #cccccc; }
+        .outter #lv-wrap .lv-wrap1 .menu2 .active {
+          display: block; }
+      .outter #lv-wrap .lv-wrap1 .menu3 {
+        width: 40%;
+        float: right; }
+        .outter #lv-wrap .lv-wrap1 .menu3 .menu3-pic {
+          width: 100%;
+          height: 550px;
+          overflow: hidden; }
+          .outter #lv-wrap .lv-wrap1 .menu3 .menu3-pic img {
+            width: 100%;
+            height: 550px; }
+          .outter #lv-wrap .lv-wrap1 .menu3 .menu3-pic .pic {
+            display: none; }
+          .outter #lv-wrap .lv-wrap1 .menu3 .menu3-pic .active {
+            display: block; }
+        .outter #lv-wrap .lv-wrap1 .menu3:hover .pic {
+          transition: all;
+          transition-duration: 2s;
+          transform: scale(0.95); }
+    .outter #lv-wrap .active {
+      display: block; }
+
+.tianchong {
+  height: 112px;
+  width: 100%;
+  background: white; }
+
+.footer {
+  width: 100%;
+  height: 241px;
+  background: #19110B;
+  padding: 0px 10% 32px; }
+  .footer .footlogo {
+    width: 80%;
+    height: 28px;
+    padding: 32px 0;
+    color: white;
+    border-bottom: solid 0.5px #392d23; }
+    .footer .footlogo ul li {
+      font-size: 16.2px;
+      float: left;
+      font-weight: 300;
+      margin-right: 24px; }
+      .footer .footlogo ul li a {
+        color: white; }
+  .footer .footcon {
+    padding-top: 32px;
+    height: 34.4px; }
+    .footer .footcon ul li {
+      padding: 8px 24px 8px 0px;
+      float: left;
+      color: #ffffff;
+      font-size: 14.4px; }
+      .footer .footcon ul li a {
+        color: white; }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 1px #EAE8E4; }
+  .container .c-left {
+    width: 50%;
+    background: #F6F5F3;
+    box-sizing: border-box;
+    padding: 48px 128px 0px; }
+    .container .c-left .login-tit h1 {
+      height: 35.4px;
+      font-size: 25.5px;
+      font-weight: 700;
+      padding-bottom: 24px;
+      border-bottom: solid 1px #eae8e4; }
+    .container .c-left .login-tit span {
+      display: block;
+      font-size: 12.6px;
+      text-align: right;
+      padding-top: 8px; }
+    .container .c-left .login-con h2 {
+      height: 28px;
+      margin: 32px 0px;
+      font-size: 21.6px;
+      color: #19110b;
+      font-weight: 700;
+      vertical-align: baseline; }
+    .container .c-left .login-con .login-con-con {
+      height: 241.6px;
+      padding: 32px;
+      margin-bottom: 40px;
+      background: white;
+      color: #19110b; }
+      .container .c-left .login-con .login-con-con h5 {
+        margin-top: 18px;
+        height: 17.6px;
+        margin-bottom: 8px;
+        font-size: 12.6px; }
+      .container .c-left .login-con .login-con-con .out {
+        height: 47px;
+        padding: 0px 16px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 32px;
+        border: solid 0.5px #eae8e4; }
+        .container .c-left .login-con .login-con-con .out input {
+          height: 40px;
+          width: 100%;
+          margin-top: 2px;
+          font-size: 16px;
+          font-weight: 500; }
+        .container .c-left .login-con .login-con-con .out:hover {
+          border: solid 0.5px black; }
+        .container .c-left .login-con .login-con-con .out:focus {
+          border: solid 0.5px black; }
+      .container .c-left .login-con .login-con-con a {
+        text-decoration: underline;
+        font-size: 14.4px; }
+    .container .c-left .login-con #loginBtn {
+      width: 240px;
+      height: 48px;
+      box-sizing: border-box;
+      padding: 16px 24px;
+      background: #19110b;
+      color: white;
+      margin: 0px 0px 0px 8px;
+      float: right;
+      text-align: center;
+      font-size: 13.333px;
+      font-weight: 400;
+      margin-bottom: 208px; }
+      .container .c-left .login-con #loginBtn:hover {
+        background: #cccccc;
+        color: black; }
+  .container .c-right {
+    width: 50%; }
+    .container .c-right .right-con {
+      height: 655.8px;
+      padding: 0px 128px 80px;
+      margin-top: 137px;
+      overflow: hidden;
+      position: relative; }
+      .container .c-right .right-con h2 {
+        color: #19110b;
+        margin: 32px 0px;
+        font-weight: 700;
+        vertical-align: baseline;
+        font-size: 21.6px; }
+      .container .c-right .right-con .right-con-desc {
+        font-weight: 300;
+        margin-bottom: 32px;
+        font-size: 16.2px;
+        line-height: 1.777; }
+      .container .c-right .right-con .right-con-aside {
+        padding: 32px;
+        height: 215px;
+        background: #F6F5F3;
+        width: 439.6px;
+        color: #19110b; }
+        .container .c-right .right-con .right-con-aside h3 {
+          font-size: 16.2px;
+          margin: 0px 0px 24px;
+          font-weight: 700;
+          line-height: 1.42857; }
+        .container .c-right .right-con .right-con-aside li {
+          font-size: 14.4px;
+          padding: 16px 0px;
+          border-top: solid 1px #eaebe4;
+          font-weight: 400; }
+          .container .c-right .right-con .right-con-aside li span {
+            overflow: hidden;
+            font-size: 0.9rem;
+            margin-right: 1.5rem;
+            line-height: 1.25;
+            font-weight: 400;
+            display: block;
+            height: 16px;
+            width: 16px;
+            float: left; }
+        .container .c-right .right-con .right-con-aside #fir {
+          padding: 0px 0px 16px;
+          border: 0; }
+        .container .c-right .right-con .right-con-aside #las {
+          padding: 16px 0px 0px; }
+      .container .c-right .right-con #regBtn {
+        display: block;
+        width: 192px;
+        height: 16px;
+        padding: 16px 24px;
+        background: #19110b;
+        font-size: 14.4px;
+        color: white;
+        margin-bottom: 24px;
+        text-align: center;
+        margin-top: 40px;
+        font-weight: 300;
+        position: absolute;
+        right: 128px; }
+        .container .c-right .right-con #regBtn:hover {
+          background: #cccccc;
+          color: black; }
